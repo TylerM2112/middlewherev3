@@ -133,7 +133,7 @@ Why? Regular HTML attributes also typically use double quotes instead of single,
 
 ```
 
-####Always include an `alt` prop on `<img>` tags. If the image is presentational, `alt` can be an empty string or the `<img>` must have `role="presentation"`.
+#### Always include an `alt` prop on `<img>` tags. If the image is presentational, `alt` can be an empty string or the `<img>` must have `role="presentation"`.
 ```js
 // bad
 <img src="hello.jpg" />
@@ -148,7 +148,7 @@ Why? Regular HTML attributes also typically use double quotes instead of single,
 <img src="hello.jpg" role="presentation" />
 ```
 
-####Avoid using an array index as key prop, prefer a unique ID.
+#### Avoid using an array index as key prop, prefer a unique ID.
 
 ```js
 // bad
