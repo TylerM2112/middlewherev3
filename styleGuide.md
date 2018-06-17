@@ -78,7 +78,7 @@ let newFunc = ( param1, param2 ) => [ param1, param2 ];
 
 **Constant Variables:** Constant variables should be in UPPER_CASE. e.g. `const NEW_CONST_VAR = 'My name is Bob';`
 
-####Alignment
+#### Alignment
 * Props for a component should be on seperate lines if there is more than one.
 
 * The ending closing tag (/>) should be where the begining chevon is. 
