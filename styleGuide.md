@@ -175,4 +175,4 @@ Why? Regular HTML attributes also typically use double quotes instead of single,
 
 #### 2 spaces for TABS
 #### Use mapDispatchToProps 
-* Use mapDispatchToProps even if there is only one function being called. This is to provide consistency and ease for reading the code.
+* Use mapDispatchToProps even if there is only one function being called. This is to provide consistency and ease for reading the code. 
