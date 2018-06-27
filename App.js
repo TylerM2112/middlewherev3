@@ -1,6 +1,7 @@
 import React from 'react';
 import { StyleSheet, Text, View, Button, TouchableOpacity , Alert} from 'react-native';
-import Btn from './Btn.component'
+import Btn from './Btn.component';
+import Modal2 from './Modal.component';
 export default class App extends React.Component {
   render() {
     return (
@@ -11,8 +12,13 @@ export default class App extends React.Component {
 
         <Btn text="Hi there"
           backgroundColor="green"
-          
+        />
 
+        <Modal2
+          inputs={[
+            { name: 'address1', type: 'text' },
+            { name: 'address2', type: 'number'},
+          ]}
         />
       </View>
     );
