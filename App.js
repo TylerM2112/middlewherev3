@@ -1,6 +1,6 @@
 import React from 'react';
 import { StyleSheet, Text, View, Button, TouchableOpacity , Alert} from 'react-native';
-import Btn from './Brandon'
+import Btn from './Btn.component'
 export default class App extends React.Component {
   render() {
     return (
